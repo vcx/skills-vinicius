@@ -1,5 +1,5 @@
 ---
-name: using-git-worktrees
+name: git-worktree-setup
 description: Creates isolated environments based on git worktrees for feature work with smart directory selection, gitignore safety checks, automatic dependency setup, and baseline test verification
 ---
 

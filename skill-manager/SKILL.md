@@ -50,8 +50,10 @@ Este skill automatiza a organização e sincronização de skills entre seus div
 
 ### 3. Sincronizar Ambientes
 - "Sincroniza meus skills entre o cloudtop e o notebook"
+    - O sincronismo, por padrão, é apenas entre skills que existem nos dois lados (por exemplo, existe localmente em .gemini/skills e no repo de destino). Caso o usuário peça, envie skills novos de um lado para outro
+    - Por padrão, use apenas o comando `ls` para obter tamanho e datas dos arquivos pra saber se foram alterados. Se o usuário pedir explicitamente, use hashes.
 
 ## Regras de Organização
 
-1. **Simetria de Links:** Sempre que possível, mantenha `~/.gemini/skills` como a fonte da verdade e crie links simbólicos para Antigravity e Jetski.
+1. **Simetria de Links:** Sempre que possível, mantenha `~/.gemini/skills` como a fonte da verdade e crie links simbólicos para Antigravity e Jetski. Se estiver num computador Windows e não-WSL, os links não estão disponíveis. Nesse caso, copie os arquivos.
 2. **Privacidade:** NUNCA submeta segredos ou código interno ao repositório pessoal `skills`.
