@@ -35,6 +35,7 @@ Este skill automatiza a organização e sincronização de skills entre seus div
 ### 1. Baixar um Skill
 - "Baixe um skill sobre migração de aplicações"
     - o skill manager deve buscar nos meus skills, nos dois repositórios, se algum corresponde ao assunto "migração de aplicações". caso haja mais de um, pergunte qual.
+    - caso eu não tenha o repo `skills-vinicius` clonado ainda, clone em ~/sources
 - "Baixe o skill X do repositório do duboc"
     - o skill manager deve visitar a homepage ou dos amigos listados acima para procurar um sobre o assunto
     - para instalação, o skill manager deve seguir instruções que estão na página
